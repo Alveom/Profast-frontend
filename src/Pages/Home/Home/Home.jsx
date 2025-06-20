@@ -1,9 +1,12 @@
 import React from "react";
+import Banner from "../Banner";
+import HowItWorks from "../HowItWorks";
 
 function Home() {
   return (
     <>
-      <h3>From App </h3>
+      <Banner />
+      <HowItWorks />
     </>
   );
 }
